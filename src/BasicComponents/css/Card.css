@@ -1,0 +1,83 @@
+.Card {
+  position: relative;
+  border-radius: 5px;
+  background: #212121;
+  margin-left: 0.1rem;
+}
+.CardName {
+  color: white;
+}
+.CardPhoto {
+  background: black;
+  height: 16vh;
+}
+.CardPhoto img {
+  height: 16vh;
+}
+.CardType {
+  position: absolute;
+  left: 35%;
+  bottom: -1rem;
+}
+.CardType img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .Card {
+    width: 30vw;
+    height: 20vh;
+  }
+  .CardName {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .Card {
+    width: 26vw;
+    height: 27vh;
+  }
+  .CardName {
+    font-size: 18px;
+  }
+  .CardPhoto {
+    background: black;
+    height: 24vh;
+  }
+  .CardPhoto img {
+    height: 24vh;
+    width: 21vw;
+  }
+  .CardType {
+    position: absolute;
+    left: 44%;
+    bottom: -1rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .CardPhoto img {
+    height: 24vh;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .CardPhoto {
+    background: black;
+    height: 25vh;
+  }
+  .CardPhoto img {
+    height: 24vh;
+    width: 20vw;
+  }
+}

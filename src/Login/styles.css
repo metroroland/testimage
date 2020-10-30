@@ -1,0 +1,72 @@
+.LoginTemplate {
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+}
+
+h2 {
+  padding-top: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+h2:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.LoginWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  margin: auto;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+}
+
+.LoginInputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.4rem;
+}
+
+.InputBlock {
+  margin-top: 0.8rem;
+}
+.InputBlock span {
+  font-size: 25px;
+}
+
+.InputBlock input {
+  padding-left: 2px;
+  margin-left: 5px;
+  background: white;
+  color: darkred;
+  font-weight: bolder;
+}
+.InputBlock select {
+  margin-left: 5px;
+  background: white;
+  color: darkred;
+  font-weight: bolder;
+}
+
+.InputBlock button {
+  font-family: "Dancing Script", cursive;
+  margin-top: 1rem;
+  float: right;
+  width: 100px;
+  padding: 5px;
+  color: white;
+  background: darkred;
+}
+
+.InputBlock button:hover {
+  cursor: pointer;
+  color: red;
+  background: black;
+}
